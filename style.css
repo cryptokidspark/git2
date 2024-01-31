@@ -27,11 +27,11 @@
 }
 
 .aboutName h3 {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .aboutName p {
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .aboutInfo {
@@ -44,7 +44,8 @@
 .experience,
 .skills,
 .projects,
-.contact {
+.contact  
+{
     display: flex;
     flex-direction: column;
     row-gap: 10px;
