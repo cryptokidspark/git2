@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* replace the backgroundcolor and font-family with what was specified */
+/* body {
+    background-color: #eee;
+    font-family: ;
+} */
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    column-gap: 20px;
+    height: 230px;
+    margin-top: 2rem;
+    padding: 0 40px;
+}
+
+#img, #contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#main-bio {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.list li span {
+    font-weight: 700;
+}
